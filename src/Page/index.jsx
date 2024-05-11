@@ -26,8 +26,8 @@ export default function Page() {
         </p>
         <Quotes />
       </div>
-      <div className="absolute bottom-10 right-5 z-10 items-center">
-        <img src={images[image]} alt="" className="h-[50vh] " />
+      <div className="absolute bottom-5 right-0 z-1 items-center hidden lg:flex flex-col">
+        <img src={images[image]} alt="" className="h-[30vh] " />
         <div className="flex mx-auto">
           <button
             onClick={changeImage}

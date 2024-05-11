@@ -292,5 +292,9 @@ export default function Quotes() {
         return null;
     }
   };
-  return <>{renderQuotes()}</>;
+  return (
+    <>
+      <div className="z-10">{renderQuotes()}</div>
+    </>
+  );
 }
