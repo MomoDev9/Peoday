@@ -246,7 +246,7 @@ export default function Quotes() {
           >
             <motion.div
               className="flex justify-between "
-              initial={{ opacity: 0, y: 100 }}
+              initial={{ opacity: 0, y: -100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 3 }}
             >
@@ -281,7 +281,7 @@ export default function Quotes() {
                 className="h-[10vh] hover:h-[11vh] hover:bg-slate-700 cursor-pointer "
                 onClick={() => quote()}
               />
-              <p className="text-white text-lg ">⇗ Reset~ ⇖</p>
+              <p className="text-white text-lg ">⇗ Reset ⇖</p>
             </motion.div>
             <p className="text-white text-xl mt-10">
               All assets I use on this website are from Peo Garden
