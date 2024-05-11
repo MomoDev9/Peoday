@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Geometry";
+  src: url("./assets/Geometry.otf");
+}
+@font-face {
+  font-family: "Permanent";
+  src: url("./assets/Permanent.ttf");
+}
