@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 import Quotes from "./quotes";
 import peofull from "../assets/peofull.png";
@@ -38,7 +39,8 @@ export default function Page() {
               <span class="relative text-white">change</span>
             </span>
           </button>
-        </div>
+        </div>{" "}
+        <Analytics />
       </div>
     </>
   );
