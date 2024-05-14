@@ -51,11 +51,11 @@ export default function Bottom() {
           repeat: Infinity,
           repeatType: "mirror",
         }}
-        className="absolute bottom-14 left-10 "
+        className="relative lg:absolute lg:bottom-14 left-10 "
       >
         <img src={images[currentImageIndex]} alt="" className=" h-20 " />
       </motion.div>
-      <div className="absolute bottom-1 flex flex-row ">
+      <div className="relative lg:absolute lg:bottom-1 flex flex-row ">
         <motion.img
           src={popokao}
           alt=""
