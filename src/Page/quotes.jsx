@@ -1,4 +1,4 @@
-w-500import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 import AnimText from "./animtext";
