@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+w-500import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 import AnimText from "./animtext";
@@ -283,7 +283,7 @@ export default function Quotes() {
               />
               <p className="text-white text-lg ">⇗ Reset ⇖</p>
             </motion.div>
-            <p className="text-white text-xl mt-10">
+            <p className="text-yellow-500 text-xl mt-10 lg:text-white">
               All assets I use on this website are from Peo Garden
             </p>
           </motion.div>
